@@ -47,7 +47,7 @@ func main() {
 
 	fmt.Printf("size=[%d]\n", iSize)
 
-	data := readNextBytes(file, 384)
+	data := readNextBytes(file,iSize)
 
 	buffer := bytes.NewBuffer(data)
 
